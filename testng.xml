@@ -1,0 +1,20 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Report1" verbose="1" >
+    <test name="FinalProject" >
+        <classes>
+            <class name="FinalProject">
+                <methods>
+                    <include name="ThisIsTestMethod1"/>
+                    <include name="ThisIsTestMethod2"/>
+                    <include name="ThisIsTestMethod3"/>
+                    <include name="ThisIsBeforeTest"/>
+
+
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+
+</suite>
